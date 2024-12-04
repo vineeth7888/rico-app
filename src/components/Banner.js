@@ -18,9 +18,9 @@ function Banner({ slide, slides, onThumbnailClick, activeIndex }) {
           Charge into a brand-new supersized adventure with RICO across 50
           exciting and diverse worlds, available now on PS5!
         </p>
-        <button className="cta-button">
+        <a href="https://www.playstation.com/" target="_blank" rel="noreferrer" className="cta-button">
           LEARN MORE
-        </button>
+        </a>
         <div className="thumbnail-container">
           {slides.map((s, index) => (
             <div key={index} className={`image-container ${index === activeIndex ? "active" : ""}`}>
